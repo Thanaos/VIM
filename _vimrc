@@ -261,7 +261,7 @@ endif
 
 " 设置代码配色方案
 if g:isGUI
-    colorscheme vividchalk               "Gvim配色方案
+    colorscheme vividchalk_modified             "Gvim配色方案
 else
     colorscheme darkburn               "终端配色方案
 endif
