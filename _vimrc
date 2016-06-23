@@ -345,7 +345,7 @@ endif
 "  < cSyntaxAfter 插件配置 >
 " -----------------------------------------------------------------------------
 " 高亮括号与运算符等
-au! BufRead,BufNewFile,BufEnter *.{c,cpp,h,java,javascript} call CSyntaxAfter()
+"au! BufRead,BufNewFile,BufEnter *.{c,cpp,h,java,javascript} call CSyntaxAfter()
 
 " -----------------------------------------------------------------------------
 "  < ctrlp.vim 插件配置 >
@@ -357,6 +357,7 @@ au! BufRead,BufNewFile,BufEnter *.{c,cpp,h,java,javascript} call CSyntaxAfter()
 "  < emmet-vim（前身为Zen coding） 插件配置 >
 " -----------------------------------------------------------------------------
 " HTML/CSS代码快速编写神器，详细帮助见 :h emmet.txt
+
 
 " -----------------------------------------------------------------------------
 "  < indentLine 插件配置 >
@@ -603,6 +604,7 @@ endif
 "  < ctags 工具配置 >
 " -----------------------------------------------------------------------------
 " 对浏览代码非常的方便,可以在函数,变量之间跳转等
+set autochdir
 set tags=./tags;                            "向上级目录递归查找tags文件（好像只有在Windows下才有用）
 
 " -----------------------------------------------------------------------------
@@ -722,3 +724,5 @@ set tabstop=8
 "                      xptemplate 快捷键设置
 "===============================================================================
 "
+let g:xptemplate_vars = "$email=15954861505@139com"
+let g:xptemplate_key = '<Tab>'
