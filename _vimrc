@@ -199,7 +199,7 @@ set tabstop=2                                         "设置Tab键的宽度，�
 set shiftwidth=2                                      "换行时自动缩进宽度，可更改（宽度同tabstop）
 set smarttab                                          "指定按一次backspace就删除shiftwidth宽度
 set foldenable                                        "启用折叠
-set foldmethod=marker                                  "indent 折叠方式
+set foldmethod=indent                                  "indent 折叠方式
 "set foldmethod=syntax
 set foldlevel=100
 " set foldmethod=marker                                "marker 折叠方式
@@ -725,4 +725,4 @@ set tabstop=8
 "===============================================================================
 "
 let g:xptemplate_vars = "$email=15954861505@139com"
-let g:xptemplate_key = '<Tab>'
+"let g:xptemplate_key = '<Tab>'
